@@ -1,27 +1,141 @@
+/* top_section */
+header {
+    background-image: url('images/header_bg.jpg');
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    background-size:cover;
+    height: 600px;
+    width: auto;
+    padding: 50px;
+}
 
 body {
-    background-image: url('images/header_bg.jpg');
-    background-size:cover;
+  color: #f0efef;
+  font-size: 26px;
+  line-height: 1.4;
+  color: #606161;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+a {
+  text-decoration: none;
 }
 
-h1 {
+.logo {
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
-    font-size: 24px;
+    font-size: 30px;
     color: white;
+    margin: -40px 0px 0px 0px
 }
 
-h2 {
+.mind {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     float: center;
-    font-size: 24px;
+    font-size: 35px;
     text-align: center;
     color: white;
+    margin-top: 180px;
 }
 
-.button_yellow {
+ .button_yellow {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  display: inline-block;
+  padding: 4px 42px;
   background: #f9e42e;
   color: #121212;
+}
+/* benefits */
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  margin: 70px 0px 10px 50px;
+}
+
+.perfect {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  margin: 20px 0px 10px 50px;
+}
+
+.list {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  margin: 20px 0px 10px 50px;
+  padding: 40px;
+}
+
+/* Testimonial */
+
+.waves {
+  background-image: url('images/testimonial_bg.jpg');
+  background-size:cover;
+  height: 200px;
+  width: auto;
+  padding: 50px;
+}
+
+blockquote {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: white;
+  font-style: italic;
+  text-align: center;
+  width: 580px;
+  margin: 20 auto;
+}
+
+blockquote span {
+  font-weight: 600;
+  display: block;
+  font-style: normal;
+}
+
+/* bottom section */
+
+aside {
+  background: #f9e42e;
+  padding: 30px;
+  text-align: center
+}
+footer {
+  background: #121212;
+  padding: 65px 0 45px;
   text-align: center;
 }
+footer .logo {
+  color: #f9e42e;
+  margin-bottom: 68px;
+}
+footer ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 26px 75px;
+}
+footer p {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+}
+
+
+/*nav a {
+  display: block;
+  background: #990000;
+  color: #fff;
+  padding: 10px 15 px;
+  text-decoration: none;
+}*/
+
+/** {
+  border: solid 1px red;
+}*/
+
+/* Navbar Styling */
